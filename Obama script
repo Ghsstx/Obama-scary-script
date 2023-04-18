@@ -1,0 +1,12 @@
+local amor = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+
+amor.Name = "amor"
+amor.Parent = game.CoreGui
+amor.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageLabel.Parent = amor
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 1646, 0, 1055)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=1982429798"
+ImageLabel.Active = true
